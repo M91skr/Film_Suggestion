@@ -14,3 +14,11 @@ python -m venv env
 pip install -r requirements.txt
 python main.py
 ```
+## How to deploy
+
+You need to have docker installed on your machine. you can easily deploy the service with executing
+the following command in your terminal:
+
+```bash
+docker-compose up
+```
