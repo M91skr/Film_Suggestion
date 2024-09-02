@@ -7,3 +7,5 @@ services:
       CHROME_DRIVER_PATH: ${CHROME_DRIVER_PATH}
     volumes:
       - .:/app
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
