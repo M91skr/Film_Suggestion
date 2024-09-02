@@ -3,5 +3,7 @@ version: '3.8'
 services:
   film_suggestion:
     build: .
+    environment:
+      CHROME_DRIVER_PATH: ${CHROME_DRIVER_PATH}
     volumes:
       - .:/app
